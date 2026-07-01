@@ -37,7 +37,7 @@ def predict_image(model, class_name, img: Image.Image):
 
 
 st.set_page_config(page_title="Clasificador de Flores")
-st.title("Clasificador de Flores con MobileNetV2 - Jeimy Jazmin Palma Santos")
+st.title("Clasificador de Flores con MobileNetV2 - Anny Yohana Gutierrez")
 st.write("Sube una imagen de una flor y el modelo predecirá su categoría.")
 
 model, class_name = load_model()
